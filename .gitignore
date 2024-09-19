@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+chatbot-env/
+
+# Ignore sensitive files
+models/constants.py
+
+# Ignore any large files, such as models
+models/vectorstore_index.pkl
